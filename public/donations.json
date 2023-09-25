@@ -3,11 +3,7 @@
     "id": 1,
     "category": "Health",
     "title": "Medical Supplies for Children",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 225,
     "card_color": "#0052FF26",
     "text_color": "#0052FF",
@@ -18,11 +14,7 @@
     "id": 2,
     "category": "Education",
     "title": "Scholarships for Underprivileged Students",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 75,
     "card_color": "#FF444C26",
     "text_color": "#FF444A",
@@ -33,11 +25,7 @@
     "id": 3,
     "category": "Clothing",
     "title": "Warm Winter Clothing Drive",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 50,
     "card_color": "#79C23F26",
     "text_color": "#79C23F",
@@ -48,11 +36,7 @@
     "id": 4,
     "category": "Food",
     "title": "Emergency Food Relief",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 125,
     "card_color": "#f8714726",
     "text_color": "#F87147",
@@ -63,11 +47,7 @@
     "id": 5,
     "category": "Health",
     "title": "Medical Care for Vulnerable Seniors",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 325,
     "card_color": "#0052FF26",
     "text_color": "#0052FF",
@@ -78,11 +58,7 @@
     "id": 6,
     "category": "Education",
     "title": "Technology for Underserved Schools",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 145,
     "card_color": "#FF444C26",
     "text_color": "#FF444A",
@@ -93,11 +69,7 @@
     "id": 7,
     "category": "Clothing",
     "title": "Clothing for Homeless Individuals",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 100,
     "card_color": "#79C23F26",
     "text_color": "#79C23F",
@@ -108,11 +80,7 @@
     "id": 8,
     "category": "Food",
     "title": "Nutritious Meals for Hungry Children",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 199,
     "card_color": "#f8714726",
     "text_color": "#F87147",
@@ -123,11 +91,7 @@
     "id": 9,
     "category": "Health",
     "title": "Medical Research Advancement",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 60,
     "card_color": "#0052FF26",
     "text_color": "#0052FF",
@@ -138,11 +102,7 @@
     "id": 10,
     "category": "Education",
     "title": "Books for Rural Schools",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 22,
     "card_color": "#FF444C26",
     "text_color": "#FF444A",
@@ -153,11 +113,7 @@
     "id": 11,
     "category": "Clothing",
     "title": "Sustainable Fashion Initiative",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 265,
     "card_color": "#79C23F26",
     "text_color": "#79C23F",
@@ -168,11 +124,7 @@
     "id": 12,
     "category": "Food",
     "title": "Community Food Banks",
-    "images": [
-      "https://i.ibb.co/P6WQ4Sc/Education.png",
-      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
-      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
-    ],
+    "images": "https://i.ibb.co/Z1zmVHY/Education-Details.png",
     "donation_amount": 165,
     "card_color": "#f8714726",
     "text_color": "#F87147",

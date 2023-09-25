@@ -7,7 +7,7 @@ import { getToLs } from '../../utility/localStorage';
 
 const Statistics = () => {
   const savedCards = getToLs()
-  console.log(savedCards);
+
   const selectedCards = savedCards.length;
 
 

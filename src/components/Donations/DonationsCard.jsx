@@ -17,7 +17,7 @@ const DonationsCard = ({ donation }) => {
         onClick={handleDetails}
         style={{ backgroundColor: card_color }}
         className="card cursor-pointer shadow-xl">
-        <img src={images[0]} alt="" />
+        <img src={images} alt="" />
         <figure></figure>
         <div className="card-body">
           <div>

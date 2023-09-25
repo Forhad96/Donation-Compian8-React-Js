@@ -5,7 +5,7 @@ import DonateCard from "./DonateCard";
 
 const Donation = () => {
   const donations = useLoaderData();
-  const [displayDonation, setDisplayDonation] = useState();
+  const [displayDonation, setDisplayDonation] = useState([]);
   const [isShow, setIsShow] = useState(false);
 
   useEffect(() => {
@@ -14,13 +14,17 @@ const Donation = () => {
       const filterDonations = donations.filter((donation) =>
         localStoredData.includes(donation.id)
       );
-      setDisplayDonation(filterDonations);
+      if(filterDonations){
+
+        setDisplayDonation(filterDonations);
+      }
     }
   }, [donations]);
   const handleShow = () => {
-
       setIsShow(!isShow)
   };
+console.log(displayDonation.length);
+
   return (
     <div>
       <div className="grid md:grid-cols-2 gap-5">
@@ -33,11 +37,16 @@ const Donation = () => {
               ))
         }
       </div>
-      <button
+      {
+        displayDonation.length > 4 &&
+        <button
         onClick={handleShow}
         className="text-lg font-semibold px-4 py-2 rounded mt-5 btn btn-primary text-white">
-        Show All
+          {isShow ?'See Less':'See All'}
       </button>
+      }
+
+
     </div>
   );
 };
