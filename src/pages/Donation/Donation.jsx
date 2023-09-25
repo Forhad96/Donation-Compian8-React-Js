@@ -27,9 +27,11 @@ const Donation = () => {
 console.log(displayDonation.length);
 
   return (
-    <div>
-        <button onClick={handleRemove} className="bg-red-400 px-4 py-2 rounded text-white font-bold mt-5">Remove All</button>
+    <div className="">
+      <div className="text-center my-5">
+      <button onClick={handleRemove} className="bg-red-400 px-4 py-2 rounded text-white font-bold mt-5 ">Remove All</button>
 
+      </div>
       <div className="grid md:grid-cols-2 gap-5">
         {
             isShow ? displayDonation?.map((donation) => (
@@ -40,7 +42,8 @@ console.log(displayDonation.length);
               ))
         }
       </div>
-      {
+        <div className="text-center my-5">
+        {
         displayDonation.length > 4 &&
         <button
         onClick={()=>setIsShow(!isShow)}
@@ -48,6 +51,7 @@ console.log(displayDonation.length);
           {isShow ?'See Less':'See All'}
       </button>
       }
+        </div>
 
 
     </div>

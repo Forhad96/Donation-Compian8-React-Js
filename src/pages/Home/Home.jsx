@@ -12,11 +12,7 @@ const Home = () => {
         setDisplayDonations(donations)
         
     },[donations])
-    // console.log(displayDonations);
-    // const handleSearch=(e)=>{
-    //     e.preventDefault()
-    //     console.log(e.target.value)
-    // }
+
     return (
         <div>
             <Banner
