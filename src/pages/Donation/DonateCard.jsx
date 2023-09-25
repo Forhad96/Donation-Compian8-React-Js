@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const DonateCard = ({ donation }) => {
   const {
     id,
@@ -39,5 +41,9 @@ const DonateCard = ({ donation }) => {
     </div>
   );
 };
+
+DonateCard.propTypes={
+    donation: PropTypes.object.isRequired
+}
 
 export default DonateCard;
