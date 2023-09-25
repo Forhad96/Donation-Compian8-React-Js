@@ -1,17 +1,16 @@
-import {  useNavigate } from "react-router-dom";
-import PropTypes from 'prop-types'
+import { useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const DonationsCard = ({ donation }) => {
-  const {id, images, title, category, card_color, btn_color, text_color } =
+  const { id, images, title, category, card_color, btn_color, text_color } =
     donation;
-    // console.log(id);
+  // console.log(id);
 
-    // const {id} = useParams();
-    const navigate = useNavigate()
-    const handleDetails =()=>{
-        navigate(`/donationDetails/${id}`)
-
-    }
+  // const {id} = useParams();
+  const navigate = useNavigate();
+  const handleDetails = () => {
+    navigate(`/donationDetails/${id}`);
+  };
   return (
     <div>
       <div
@@ -36,7 +35,7 @@ const DonationsCard = ({ donation }) => {
     </div>
   );
 };
-DonationsCard.propTypes ={
-    donation:PropTypes.object.isRequired
-}
+DonationsCard.propTypes = {
+  donation: PropTypes.object.isRequired,
+};
 export default DonationsCard;

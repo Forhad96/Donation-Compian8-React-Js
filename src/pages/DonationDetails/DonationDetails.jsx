@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { savaToLs } from "../../utility/localStorage";
 
 const DonationDetails = () => {
     const donations = useLoaderData({});
@@ -8,20 +9,22 @@ const DonationDetails = () => {
 
     const {id} = useParams()
     const idInt = parseInt(id)
-    // console.log(typeof idInt);
     useEffect(()=>{
         if(donations){
             const filterDetails = donations.find(donation => donation.id === idInt)
             setDetails(filterDetails)
         }
     },[donations,idInt])
-    console.log(donations);
+
+    const handleDonate =()=>{
+        savaToLs(idInt)
+    }
+
   return (
     <div>
-        hello
         <div>
         <img className="w-full" src={images} alt="" />
-        <button className="btn bg-primary-color text-white text-xl font-semibold relative bottom-28 left-5">
+        <button onClick={handleDonate} className="btn bg-primary-color text-white text-xl font-semibold relative bottom-28 left-5">
           Donate$ {donation_amount}
         </button>
       </div>
