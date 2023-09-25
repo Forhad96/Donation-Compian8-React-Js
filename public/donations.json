@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "category": "Health",
+    "title": "Medical Supplies for Children",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 225,
+    "card_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "btn_color": "#0052FF33",
+    "description": "Our 'Medical Supplies for Children' initiative is dedicated to improving the health and well-being of vulnerable children in underserved communities. Your generous donation will enable us to provide vital medical supplies, including medicines, vaccinations, and medical equipment, to those in need. By contributing, you are ensuring that these children have access to the essential healthcare they deserve. Join us in making a significant impact on their lives and helping them thrive in a world of wellness."
+  },
+  {
+    "id": 2,
+    "category": "Education",
+    "title": "Scholarships for Underprivileged Students",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 75,
+    "card_color": "#FF444C26",
+    "text_color": "#FF444A",
+    "btn_color": "#FF444C33",
+    "description": "Education is the key to a brighter future, but not all students have equal opportunities. Our 'Scholarships for Underprivileged Students' program aims to change that narrative. Your generous contribution will empower deserving students from disadvantaged backgrounds to access quality education. The scholarships cover tuition fees, textbooks, and other educational expenses, ensuring that these students have the chance to pursue their dreams and unlock a world of possibilities."
+  },
+  {
+    "id": 3,
+    "category": "Clothing",
+    "title": "Warm Winter Clothing Drive",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 50,
+    "card_color": "#79C23F26",
+    "text_color": "#79C23F",
+    "btn_color": "#79C23F33",
+    "description": "During harsh winter months, warmth is a basic necessity. Our 'Warm Winter Clothing Drive' aims to provide comfort and dignity to individuals facing cold weather without adequate clothing. Your generous donation will enable us to distribute coats, blankets, and essential winter items to homeless and vulnerable communities. By supporting this cause, you can make a real difference in the lives of those struggling to stay warm and healthy."
+  },
+  {
+    "id": 4,
+    "category": "Food",
+    "title": "Emergency Food Relief",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 125,
+    "card_color": "#f8714726",
+    "text_color": "#F87147",
+    "btn_color": "#f8714733",
+    "description": "Access to food is a fundamental human right, but many families face hunger during emergencies. Our 'Emergency Food Relief' program is dedicated to providing immediate assistance to those in crisis. Your generous donation will support our efforts to distribute nutritious meals and essential food supplies to families in dire need. Together, we can be a lifeline, offering hope and sustenance during their most challenging times."
+  },
+  {
+    "id": 5,
+    "category": "Health",
+    "title": "Medical Care for Vulnerable Seniors",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 325,
+    "card_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "btn_color": "#0052FF33",
+    "description": "As individuals age, access to healthcare becomes increasingly important. Our 'Medical Care for Vulnerable Seniors' initiative focuses on providing essential medical attention and support to elderly individuals in need. Your generous donation will ensure that seniors receive the necessary medical care, medications, and companionship to enhance their quality of life. Join us in making their golden years healthier and happier."
+  },
+  {
+    "id": 6,
+    "category": "Education",
+    "title": "Technology for Underserved Schools",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 145,
+    "card_color": "#FF444C26",
+    "text_color": "#FF444A",
+    "btn_color": "#FF444C33",
+    "description": "Access to technology is crucial for modern education, yet many underserved schools lack essential resources. Our 'Technology for Underserved Schools' program aims to bridge this digital divide. Your generous contribution will provide schools in disadvantaged areas with computers, tablets, internet access, and educational software. By supporting this cause, you empower students with the necessary tools to succeed in the digital age and ensure that every child has an equal opportunity to thrive academically."
+  },
+  {
+    "id": 7,
+    "category": "Clothing",
+    "title": "Clothing for Homeless Individuals",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 100,
+    "card_color": "#79C23F26",
+    "text_color": "#79C23F",
+    "btn_color": "#79C23F33",
+    "description": "Homeless individuals face numerous challenges, including the lack of warm and clean clothing. Our 'Clothing for Homeless Individuals' program aims to provide them with the dignity and comfort they deserve. Your generous donation will help us offer clean clothing, blankets, and winter essentials to those experiencing homelessness. By supporting this cause, you can make a meaningful impact on their lives and contribute to restoring their dignity."
+  },
+  {
+    "id": 8,
+    "category": "Food",
+    "title": "Nutritious Meals for Hungry Children",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 199,
+    "card_color": "#f8714726",
+    "text_color": "#F87147",
+    "btn_color": "#f8714733",
+    "description": "Childhood hunger is a pressing issue that we can address together. Our 'Nutritious Meals for Hungry Children' program is dedicated to providing healthy and balanced meals to children in need. Your generous donation will ensure that no child goes to bed hungry. By supporting this cause, you become a lifeline for these children, offering them the nourishment they need to thrive academically and physically."
+  },
+  {
+    "id": 9,
+    "category": "Health",
+    "title": "Medical Research Advancement",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 60,
+    "card_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "btn_color": "#0052FF33",
+    "description": "Advancements in medical research are vital for improving healthcare and saving lives. Our 'Medical Research Advancement' initiative supports groundbreaking research that can lead to better treatments and well-being for all. Your generous donation will contribute to scientific discoveries, medical breakthroughs, and advancements in the field of medicine. By supporting this cause, you play a crucial role in shaping the future of healthcare and making a lasting impact on the health and well-being of countless individuals."
+  },
+  {
+    "id": 10,
+    "category": "Education",
+    "title": "Books for Rural Schools",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 22,
+    "card_color": "#FF444C26",
+    "text_color": "#FF444A",
+    "btn_color": "#FF444C33",
+    "description": "Access to books can transform the lives of students in rural areas. Our 'Books for Rural Schools' program aims to provide much-needed educational resources to schools in remote areas. Your generous contribution will supply books, learning materials, and library resources, opening doors to knowledge and a brighter future for students in underserved communities. By supporting this cause, you empower these young minds to reach their full potential and achieve their dreams."
+  },
+  {
+    "id": 11,
+    "category": "Clothing",
+    "title": "Sustainable Fashion Initiative",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 265,
+    "card_color": "#79C23F26",
+    "text_color": "#79C23F",
+    "btn_color": "#79C23F33",
+    "description": "Fashion can have a significant environmental impact, but we can change that. Our 'Sustainable Fashion Initiative' promotes eco-friendly clothing options and sustainable practices in the fashion industry. Your generous donation will support initiatives that reduce waste, promote ethical production, and minimize the carbon footprint of clothing. By supporting this cause, you contribute to a greener and more sustainable future for the fashion industry and the planet."
+  },
+  {
+    "id": 12,
+    "category": "Food",
+    "title": "Community Food Banks",
+    "images": [
+      "https://i.ibb.co/P6WQ4Sc/Education.png",
+      "https://i.ibb.co/Z1zmVHY/Education-Details.png",
+      "https://i.ibb.co/sgB1KSd/Eduction-Donate.png"
+    ],
+    "donation_amount": 165,
+    "card_color": "#f8714726",
+    "text_color": "#F87147",
+    "btn_color": "#f8714733",
+    "description": "Hunger affects communities, and together, we can make a difference. Our 'Community Food Banks' program supports local food banks in providing meals to families in need. Your generous donation will help us stock the shelves with essential food items, ensuring that no one in our community goes hungry. By supporting this cause, you contribute to a stronger and more caring society, where everyone has access to the nourishment they need."
+  }
+]

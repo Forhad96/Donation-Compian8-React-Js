@@ -50,9 +50,9 @@ const Navbar = () => {
     <div>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <a className="btn btn-ghost">
+          <NavLink to='/' className="">
             <NavLogo></NavLogo>
-          </a>
+          </NavLink>
         </div>
         <div className="navbar-end">
           <ul className="menu text-lg font-normal menu-horizontal px-1 hidden lg:flex">
