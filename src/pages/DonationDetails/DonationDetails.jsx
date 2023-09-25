@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import { savaToLs } from "../../utility/localStorage";
 
 const DonationDetails = () => {
@@ -24,9 +24,11 @@ const DonationDetails = () => {
     <div>
         <div>
         <img className="w-full" src={images} alt="" />
+        <Link to={`/donation`}>
         <button onClick={handleDonate} className="btn bg-primary-color text-white text-xl font-semibold relative bottom-28 left-5">
           Donate$ {donation_amount}
         </button>
+        </Link>
       </div>
       <h2 className="text-4xl font-bold">{title}</h2>
       <p>{description}</p>

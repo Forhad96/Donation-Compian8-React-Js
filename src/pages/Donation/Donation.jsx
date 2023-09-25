@@ -24,7 +24,7 @@ const Donation = () => {
       localStorage.clear()
       setDisplayDonation([])
   };
-console.log(displayDonation.length);
+
 
   return (
     <div className="">
