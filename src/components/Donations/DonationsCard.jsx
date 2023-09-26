@@ -19,7 +19,7 @@ const DonationsCard = ({ donation }) => {
     style={{ backgroundColor: card_color }}
       className="relative flex flex-col  rounded-xl bg-clip-border text-gray-700 shadow-md ">
         <figure>
-          <img className="md:h-52  rounded-t-md" src={images} alt="" />
+          <img className="md:h-48  rounded-t-md" src={images} alt="" />
         </figure>
   <div className="px-4 pt-4 pb-2">
     <button

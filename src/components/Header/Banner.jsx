@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-const Banner = ({ displayDonations, setDisplayDonations }) => {
+const Banner = ( {displayDonations, setDisplayDonations }) => {
   const [searchValue, setSearchValue] = useState(" ");
 
   const handleSearch = () => {
@@ -14,14 +14,16 @@ const Banner = ({ displayDonations, setDisplayDonations }) => {
     }
   };
 
+
+
   return (
     <div
       style={{ backgroundImage: "url(/banner.png)" }}
-      className=" mb-20 bg-base-200 bg-blend-overlay">
-      <div className="flex flex-col items-center min-h-[80vh] justify-center md:gap-10 py-10">
-        <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
+      className=" md:mb-20 bg-base-200 bg-blend-overlay">
+      <div className="flex flex-col items-center md:min-h-[80vh] justify-center md:gap-10 py-28">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">I Grow By Helping People In Need</h1>
 
-        <div className="join w-1/4">
+        <div className="join mt-5 md:2">
           <input
             onChange={(e) => setSearchValue(e.target.value)}
             className="input w-full input-bordered join-item"
@@ -41,6 +43,6 @@ const Banner = ({ displayDonations, setDisplayDonations }) => {
 
 Banner.propTypes = {
   displayDonations: PropTypes.array.isRequired,
-  setDisplayDonations: PropTypes.array.isRequired,
+  setDisplayDonations: PropTypes.func.isRequired,
 };
 export default Banner;

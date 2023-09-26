@@ -49,8 +49,8 @@ const Donation = () => {
 
 
   return (
-    <div className="">
-      <div className="text-center my-5">
+    <div className=" max-w-7xl mx-auto py-24">
+      <div className="text-center mb-5">
       <button onClick={handleRemove} className="bg-red-400 px-4 py-2 rounded text-white font-bold mt-5 ">Remove All</button>
 
       </div>

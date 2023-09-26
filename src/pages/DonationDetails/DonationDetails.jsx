@@ -10,11 +10,8 @@ const DonationDetails = () => {
   const {
     images,
     title,
-    category,
     donation_amount,
     description,
-    card_color,
-    btn_color,
     text_color,
   } = details;
   // const { images, title, donation_amount, description } = details;

@@ -16,7 +16,7 @@ const Statistics = () => {
   const percentage = ((selectedCards / 12) * 100).toFixed(2); 
 
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center h-[70vh]'>
 
       <ResponsiveContainer width="100%" height={400}>
         <PieChart>
@@ -29,8 +29,8 @@ const Statistics = () => {
             fill="#8884d8"
             labelLine={false} // Remove the label line
           >
-            <Cell key="cell-0" fill="#0088FE" />
-            <Cell key="cell-1" fill="#FFBB28" />
+            <Cell key="cell-0" fill="#00C49F" />
+            <Cell key="cell-1" fill="#FF444A" />
             {/* Display the percentage as a label */}
             <Label
               value={`${percentage}%`}
@@ -41,7 +41,17 @@ const Statistics = () => {
           </Pie>
         </PieChart>
       </ResponsiveContainer>
-     
+      
+      <div className='flex items-center justify-center gap-2 font-medium'>
+        <p>
+        Your Donation
+      <progress className="ml-2 progress progress-success w-28" value={percentage} max="100"></progress>
+        </p>
+        <p>
+        Total Donation
+      <progress className="ml-2 progress progress-error w-28" value={100-percentage} max="100"></progress>
+        </p>
+      </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Donations = ({displayDonations}) => {
 
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 max-w-7xl mx-auto">
             {
                 displayDonations?.map(donation => <DonationsCard key={donation.id} donation={donation}></DonationsCard>)
             }
