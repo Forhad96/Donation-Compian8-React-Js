@@ -12,13 +12,25 @@ const Statistics = () => {
 
   const selectedCards = savedCards.length;
 
+  const RADIAN = Math.PI / 180;
+  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+  
+    return (
+      <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+        {`${(percent * 100).toFixed(0)}%`}
+      </text>
+    );
+  };
 
   const percentage = ((selectedCards / 12) * 100).toFixed(2); 
 
   return (
     <div className='flex flex-col items-center justify-center h-[70vh]'>
 
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer width='100%' height='100%'>
         <PieChart>
           <Pie
             data={[{value: selectedCards }, { value: 12 - selectedCards }]}
@@ -26,18 +38,15 @@ const Statistics = () => {
             cx="50%"
             cy="50%"
             outerRadius={120}
+            
             fill="#8884d8"
+            label={renderCustomizedLabel}
             labelLine={false} // Remove the label line
           >
             <Cell key="cell-0" fill="#00C49F" />
             <Cell key="cell-1" fill="#FF444A" />
             {/* Display the percentage as a label */}
-            <Label
-              value={`${percentage}%`}
-              position="center"
-              fill="white"
-              fontSize={24}
-            />
+
           </Pie>
         </PieChart>
       </ResponsiveContainer>
