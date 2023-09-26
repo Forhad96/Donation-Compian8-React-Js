@@ -1,8 +1,4 @@
-import { NavLink } from "react-router-dom";
-import NavLogo from "./NavLogo";
-
-const Navbar = () => {
-  const links = (
+const links = (
     <>
       <li>
         <NavLink
@@ -47,10 +43,10 @@ const Navbar = () => {
   );
 
 
-  return (
-    <div className="">
 
-<div className="navbar absolute left-0 right-0 mx-auto top-0 z-10 max-w-7xl  ">
+  {
+
+    <div className="navbar ">
     <div className="navbar-start">
       <NavLink to="/" className="">
         <NavLogo></NavLogo>
@@ -161,10 +157,4 @@ const Navbar = () => {
       </div>
     </div>
     </div>
-
-    </div>
-  );
-};
-
-export default Navbar;
-
+    }

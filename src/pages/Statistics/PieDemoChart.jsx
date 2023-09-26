@@ -1,16 +1,8 @@
+import { Cell, Label, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
 
-
-import { PieChart, Pie, ResponsiveContainer, Cell, Label } from 'recharts';
-
-import { getToLs } from '../../utility/localStorage';
-
-
-
-const Statistics = () => {
-  const savedCards = getToLs()
-
-  const selectedCards = savedCards.length;
+const PieDemoChart = () => {
+  const selectedCards = 6;
 
 
   const percentage = ((selectedCards / 12) * 100).toFixed(2); 
@@ -29,6 +21,7 @@ const Statistics = () => {
             fill="#8884d8"
             labelLine={false} // Remove the label line
           >
+            <Tooltip cursor={{ stroke: 'red', strokeWidth: 2 }}></Tooltip>
             <Cell key="cell-0" fill="#0088FE" />
             <Cell key="cell-1" fill="#FFBB28" />
             {/* Display the percentage as a label */}
@@ -46,4 +39,4 @@ const Statistics = () => {
   );
 };
 
-export default Statistics;
+export default PieDemoChart;

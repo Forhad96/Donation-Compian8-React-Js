@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
+import {  useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { getToLs, savaToLs } from "../../utility/localStorage";
 // sweetAlert
 import swal from "sweetalert";

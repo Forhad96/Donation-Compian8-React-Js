@@ -20,7 +20,7 @@ const DonateCard = ({ donation }) => {
         <div className="px-5 py-4">
           <div className="">
             <button
-              style={{ backgroundColor: btn_color }}
+              style={{ backgroundColor: btn_color,color:text_color }}
               className="px-2 rounded font-medium">
               {category}
             </button>
