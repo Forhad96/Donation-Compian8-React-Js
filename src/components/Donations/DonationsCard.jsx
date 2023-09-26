@@ -14,12 +14,12 @@ const DonationsCard = ({ donation }) => {
   return (
     <div
     onClick={handleDetails}
-     className="cursor-pointer mx-3">
+     className="cursor-pointer mx-3 h-1/4  hover:scale-95 ease-in-out duration-500">
       <div 
     style={{ backgroundColor: card_color }}
-      className="relative flex flex-col  rounded-xl bg-clip-border text-gray-700 shadow-md">
+      className="relative flex flex-col  rounded-xl bg-clip-border text-gray-700 shadow-md ">
         <figure>
-          <img className="md:max-h-52  rounded-t-md" src={images} alt="" />
+          <img className="md:h-52  rounded-t-md" src={images} alt="" />
         </figure>
   <div className="px-4 pt-4 pb-2">
     <button
