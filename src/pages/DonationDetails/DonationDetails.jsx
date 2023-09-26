@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
-import { savaToLs } from "../../utility/localStorage";
+import { getToLs, savaToLs } from "../../utility/localStorage";
+// sweetAlert 
+import swal from 'sweetalert';
 
 const DonationDetails = () => {
   const donations = useLoaderData({});
@@ -17,6 +19,10 @@ const DonationDetails = () => {
   }, [donations, idInt]);
 
   const handleDonate = () => {
+    const localStoredData = getToLs()
+    if(localStoredData.includes(idInt)){
+      swal("Already Donated!", "Thank you,Checkout your donation history!", "success");
+    }
     savaToLs(idInt);
   };
 
