@@ -8,8 +8,8 @@ const NavLogo = () => {
 
             </div>
             <div>
-                <h3 className="text-3xl md:text-4xl font-bold text-primary-color">Donation</h3>
-                <h4 className="font-medium text-xl tracking-[10px] text-gray-500">Campaign</h4>
+                <h3 className="text-lg md:text-3xl lg:text-4xl font-bold text-primary-color">Donation</h3>
+                <h4 className="font-medium text-base md:text-xl tracking-[2px] md:tracking-[10px] text-gray-500">Campaign</h4>
             </div>
         </div>
     );

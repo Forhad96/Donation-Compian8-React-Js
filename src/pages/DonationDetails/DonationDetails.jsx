@@ -43,7 +43,8 @@ const DonationDetails = () => {
   };
 
   return (
-    <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mt-4 mx-3">
+    <div className="max-w-7xl pt-20 mx-auto">
+          <div className="relative flex flex-col rounded-xl   bg-white bg-clip-border text-gray-700 shadow-md mt-4 mx-3">
     <img className="max-h-[620px] rounded" src={images} alt="" />
     <div className="relative  bottom-20 ">
       <div className="bg-[#0b0b0b80] mb-5 pt-0">
@@ -60,12 +61,13 @@ const DonationDetails = () => {
       <h5 className="mb-2 block font-sans text-xl md:text-3xl font-bold leading-snug tracking-normal text-[#0B0B0B] antialiased">
         {title}
       </h5>
-      <p className="block text-base  leading-relaxed text-inherit antialiased">
+      <p className="block text-sm md:text-base  leading-relaxed text-inherit antialiased">
         {description}
       </p>
       </div>
     </div>
   </div>
+    </div>
   );
 };
 
