@@ -3,6 +3,9 @@ import { useLoaderData } from "react-router-dom";
 import { getToLs } from "../../utility/localStorage";
 import DonateCard from "./DonateCard";
 
+// sweetAlert
+import swal from 'sweetalert'
+
 const Donation = () => {
   const donations = useLoaderData();
   const [displayDonation, setDisplayDonation] = useState([]);
@@ -21,8 +24,27 @@ const Donation = () => {
     }
   }, [donations]);
   const handleRemove = () => {
-      localStorage.clear()
-      setDisplayDonation([])
+
+    swal({
+      title: "Are you sure?",
+      text: "Once deleted, you will not be able to recover this imaginary file!",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    })
+    .then((willDelete) => {
+      if (willDelete) {
+        swal("Poof! Your imaginary file has been deleted!", {
+          icon: "success",
+          
+        });
+        localStorage.clear()
+        setDisplayDonation([])
+      } else {
+        swal("Your imaginary file is safe!");
+      }
+    });
+
   };
 
 
