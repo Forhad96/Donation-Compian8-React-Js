@@ -47,7 +47,7 @@ const Donation = () => {
         displayDonation.length > 4 &&
         <button
         onClick={()=>setIsShow(!isShow)}
-        className="text-lg font-semibold px-4 py-2 rounded mt-5 btn btn-primary text-white">
+        className="bg-green-600 px-6 text-lg py-2 rounded text-white font-bold mt-5">
           {isShow ?'See Less':'See All'}
       </button>
       }

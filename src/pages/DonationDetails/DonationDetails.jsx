@@ -23,7 +23,7 @@ const DonationDetails = () => {
   return (
     <div>
       <div>
-        <img className="w-full" src={images} alt="" />
+        <img className="w-full h-[700px]" src={images} alt="" />
         <div className="bg-gray-400 bg-opacity-60 py-6 relative bottom-24">
           <Link to={`/donation`}>
             <button

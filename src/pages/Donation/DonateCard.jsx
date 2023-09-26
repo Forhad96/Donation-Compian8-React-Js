@@ -14,10 +14,10 @@ const DonateCard = ({ donation }) => {
   } = donation;
   return (
 
-    <div>
-      <div style={{ backgroundColor: card_color }} className="flex gap-6">
-        <img className="w-52 rounded-s-lg" src={images} alt="" />
-        <div className="my-6">
+    <div style={{ backgroundColor: card_color }} className='rounded-lg shadow-xl mx-3'>
+      <div  className="flex flex-wrap gap-6  max-w-2xl">
+        <img className="w-full lg:max-w-[220px] rounded-t-lg md:rounded-s-lg" src={images} alt="" />
+        <div className="my-6 px-5">
           <div className="mb-2">
             <button
               style={{ backgroundColor: btn_color }}
@@ -29,7 +29,7 @@ const DonateCard = ({ donation }) => {
             {title}
           </h2>
           <p style={{ color: text_color }} className="font-semibold">
-            {donation_amount}
+            $ {donation_amount}.00
           </p>
         <Link to={`/donationDetails/${id}`}>
         <button
