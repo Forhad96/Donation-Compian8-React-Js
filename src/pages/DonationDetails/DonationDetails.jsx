@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { getToLs, savaToLs } from "../../utility/localStorage";
 // sweetAlert
 import swal from "sweetalert";
@@ -28,16 +28,21 @@ const DonationDetails = () => {
     }
   }, [donations, idInt]);
 
+  const navigate = useNavigate()
   const handleDonate = () => {
     const localStoredData = getToLs();
     if (localStoredData.includes(idInt)) {
+      navigate('/donation')
       swal(
         "Already Donated!",
         "Thank you,Checkout your donation history!",
-        "success"
+        "error"
       );
     }
-    savaToLs(idInt);
+    else{
+      swal("Congratulations!", "Your donation has been successfully processed. Thank you for your generosity and support.", "success");
+      savaToLs(idInt);
+    }
   };
 
   return (
@@ -45,8 +50,7 @@ const DonationDetails = () => {
     <img className="max-h-[620px] rounded" src={images} alt="" />
     <div className="relative  bottom-20 ">
       <div className="bg-[#0b0b0b80] mb-5 pt-0">
-        <Link to={`/donation`}>
-          <button
+      <button
             onClick={handleDonate}
             style={{ backgroundColor: text_color }}
             className="select-none rounded ml-5 my-5 py-3 px-4 text-center align-middle font-sans text-xs font-bold  text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -54,7 +58,6 @@ const DonationDetails = () => {
             data-ripple-light="true">
             Donate $ {donation_amount}
           </button>
-        </Link>
       </div>
       <div className="">
       <h5 className="mb-2 block font-sans text-xl md:text-3xl font-bold leading-snug tracking-normal text-[#0B0B0B] antialiased">
