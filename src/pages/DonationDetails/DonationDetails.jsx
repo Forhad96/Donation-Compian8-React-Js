@@ -37,6 +37,7 @@ const DonationDetails = () => {
       );
     }
     else{
+      navigate('/donation')
       swal("Congratulations!", "Your donation has been successfully processed. Thank you for your generosity and support.", "success");
       savaToLs(idInt);
     }
