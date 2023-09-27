@@ -3,6 +3,9 @@ import Donations from "../../components/Donations/Donations";
 import Banner from "../../components/Header/Banner";
 import { useEffect, useState } from "react";
 
+// sweet alert'
+import swal from 'sweetalert'
+
 
 const Home = () => {
     const [displayDonations,setDisplayDonations]=useState([])
@@ -15,7 +18,7 @@ const Home = () => {
 
 
 
-        const handleSearch = (searchValue,setSearchValue) => {
+        const handleSearch = (searchValue) => {
                 
             const searchDisplay = donations?.filter(
                 (displayDonation) =>
@@ -26,7 +29,7 @@ const Home = () => {
               }
               else{
                 swal("Please Search with category name");
-                
+
               }
         };
       
