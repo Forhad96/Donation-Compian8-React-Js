@@ -2,7 +2,7 @@
 
 ### Introduction
 
-- Welcome to [Your Website Name]! Our mission is to make a positive impact on the world by facilitating donations to various causes. We believe in the power of collective generosity, and our platform is designed to make it easy for donors to support causes they care about. Explore our website to find a diverse range of donation categories, detailed information about causes, and a seamless donation process.
+- Welcome to https://donation-campaign-a8.surge.sh/ ! Our mission is to make a positive impact on the world by facilitating donations to various causes. We believe in the power of collective generosity, and our platform is designed to make it easy for donors to support causes they care about. Explore our website to find a diverse range of donation categories, detailed information about causes, and a seamless donation process.
 
 ### Features
 
@@ -22,7 +22,7 @@
 
 ### Getting Started
 
-To get started with [Your Website Name], follow these simple steps:
+To get started with https://donation-campaign-a8.surge.sh/ , follow these simple steps:
 
 1. **Accessing the Website:**
 
@@ -56,7 +56,7 @@ Now that you know how to get started, let's explore how to use [Your Website Nam
 
 ### Usage
 
-Using [Your Website Name] is straightforward:
+Using https://donation-campaign-a8.surge.sh/ is straightforward:
 
 - Navigate through the donation categories to find causes that resonate with you.
 - Read the detailed descriptions, view impact statistics, and engage with multimedia content to make informed decisions about your donations.
@@ -74,11 +74,27 @@ We've designed our website to be user-friendly and intuitive, ensuring a seamles
 
 - Provide contact information or links to your social media profiles for users who have questions or want to get in touch with you.
 
+Certainly, let's add the acknowledgments for the technologies and libraries you've used in your README file:
+
 ### Acknowledgments
 
-- If you've used any third-party libraries, services, or resources, give credit to their creators.
+This website was made possible with the use of various technologies and libraries. We would like to acknowledge and express our gratitude to the following:
 
-Certainly, let's create a "Support and Help" section in your README file based on the information provided:
+- **React:** We utilized the React library to build the dynamic and interactive components of our website.
+
+- **React Router:** Our website's smooth navigation and dedicated detail pages are powered by React Router.
+
+- **Tailwind CSS:** The sleek and responsive design of our website was achieved with the help of Tailwind CSS.
+
+- **Daisy UI:** We incorporated Daisy UI to enhance the user interface and user experience of our website.
+
+- **Material Tailwind:** Some UI elements and components were inspired by [Material Tailwind](https://www.material-tailwind.com/), which contributed to the overall aesthetics.
+
+- **React Recharts:** The donation statistics pie chart and progress bar were created using React Recharts to visualize our fundraising progress.
+
+- **Sweet Alert:** We express our gratitude to Sweet Alert for providing user-friendly confirmation messages after each donation, making the experience more delightful.
+
+These technologies and libraries played a crucial role in making our website functional, visually appealing, and user-friendly. We appreciate the hard work and contributions of their respective developers and communities.
 
 ### Support and Help
 
