@@ -57,7 +57,7 @@ const Navbar = () => {
       </NavLink>
     </div>
     <div className="navbar-end">
-      <ul className="menu text-lg  menu-horizontal px-1 hidden lg:flex">
+      <ul className=" gap-4 text-lg  menu-horizontal px-1 hidden lg:flex">
         {links}
       </ul>
       {/* dropdown */}

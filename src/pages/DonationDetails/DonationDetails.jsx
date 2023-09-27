@@ -29,7 +29,7 @@ const DonationDetails = () => {
   const handleDonate = () => {
     const localStoredData = getToLs();
     if (localStoredData.includes(idInt)) {
-      navigate('/donation')
+      navigate('/')
       swal(
         "Already Donated!",
         "Thank you,Checkout your donation history!",
@@ -37,7 +37,7 @@ const DonationDetails = () => {
       );
     }
     else{
-      navigate('/donation')
+      navigate('/')
       swal("Congratulations!", "Your donation has been successfully processed. Thank you for your generosity and support.", "success");
       savaToLs(idInt);
     }

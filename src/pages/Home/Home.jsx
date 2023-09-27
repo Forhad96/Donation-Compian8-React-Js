@@ -13,11 +13,29 @@ const Home = () => {
         
     },[donations])
 
+
+
+        const handleSearch = (searchValue,setSearchValue) => {
+                
+            const searchDisplay = donations?.filter(
+                (displayDonation) =>
+                  displayDonation.category.toLowerCase() === searchValue.toLowerCase()
+              );
+              if(searchDisplay.length){
+                  setDisplayDonations(searchDisplay)
+              }
+              else{
+                swal("Please Search with category name");
+                
+              }
+        };
+      
+
     return (
         <div>
             <Banner
-            displayDonations={displayDonations} 
-            setDisplayDonations={setDisplayDonations}></Banner>
+            handleSearch={handleSearch}
+            ></Banner>
             <Donations displayDonations={displayDonations}></Donations>
         </div>
     );
